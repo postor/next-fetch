@@ -50,3 +50,7 @@ app.post('/auth', csrfProtection, csrfSetHeader, (req, res) => {
 })
 
 ```
+
+## full code example
+
+https://github.com/nextjs-boilerplate/nextjs-boilerplate
