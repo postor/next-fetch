@@ -1,0 +1,32 @@
+{
+  "name": "next-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextjs-boilerplate/next-fetch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nextjs-boilerplate/next-fetch/issues"
+  },
+  "homepage": "https://github.com/nextjs-boilerplate/next-fetch#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "isomorphic-unfetch": "^1.0.0",
+    "js-cookie": "^2.1.4"
+  }
+}
